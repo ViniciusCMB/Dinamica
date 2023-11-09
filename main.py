@@ -18,7 +18,7 @@ def init():
 
 def update(frame, ln, x, y):
     x.append(frame)
-    y.append(deslocamento + (amplitude * np.cos((frequencia_angular * frame) + np.pi/2)))
+    y.append(deslocamento + (amplitude * np.cos((frequencia_angular * frame) + 3*np.pi/2)))
     ln.set_data(x, y)
     return ln,
 
