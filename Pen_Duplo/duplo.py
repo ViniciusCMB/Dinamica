@@ -34,7 +34,7 @@ T = T1 + T2
 U = U1 + U2
 
 L = T - U
-L
+
 
 EqL1 = (sp.diff(sp.diff(L, the1_d), t)-sp.diff(L, the1)).simplify()
 EqL2 = (sp.diff(sp.diff(L, the2_d), t)-sp.diff(L, the2)).simplify()
