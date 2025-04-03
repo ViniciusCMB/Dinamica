@@ -29,10 +29,13 @@ A simulação do pêndulo duplo modela o comportamento de dois pêndulos conecta
 - Python 3.10 ou superior
 - Bibliotecas: `numpy`, `scipy`, `matplotlib`, `sympy`
 
-### Certifique-se de ter todas as dependências instaladas:
-    ```bash
-    pip install -r requirements.txt
-    ```
+### Certifique-se de ter todas as dependências instaladas
+
+Para instalar as dependências necessárias, execute o seguinte comando no terminal:
+
+```bash
+pip install -r requirements.txt
+```
 
 ### Resultados
 As simulações geram gráficos e animações que podem ser salvos como arquivos `.gif` ou `.png` para análise posterior.
